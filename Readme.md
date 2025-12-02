@@ -13,3 +13,12 @@
 ### 3. 상점 유형(Store Type) 및 클러스터(Cluster) 맞춤 운영 (Importance: 304, 182)
  - 상점 유형(Type A/B/C)별로 소비자 특성이 다르므로, 상점 유형에 맞는 **특화 상품(Family) 배치 및 프로모션 빈도**를 차별화해야 합니다.
  - 특히 중요도가 낮은 '공휴일(type_y)' 이벤트보다는 **'상점 유형(type_x)'**의 근본적인 특성을 이해하여 운영 전략을 수립해야 합니다.
+
+ ## 📚 데이터셋 정보 및 재현성
+
+| 구분 | 내용 |
+| :--- | :--- |
+| **데이터셋 명** | Store Sales - Time Series Forecasting |
+| **제공처** | Kaggle Competition |
+| **경로/링크** | [데이터셋 바로가기](https://www.kaggle.com/datasets/ldausl/store-sales-time-series-forecasting) |
+| **재현 방법** | 이 코드는 Kaggle 환경(`/kaggle/input/`) 경로에 데이터가 존재해야 실행 가능 로컬 실행 시, 위 링크에서 파일을 다운로드하여 `/input` 폴더 등에 배치해야 함. |
